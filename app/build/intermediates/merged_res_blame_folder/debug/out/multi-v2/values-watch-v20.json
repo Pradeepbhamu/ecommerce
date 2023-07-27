@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.onlineShop.shopit.app-mergeDebugResources-52:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prade\\.gradle\\caches\\transforms-3\\6254f4f891fec841f7aca8a1b2181271\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
