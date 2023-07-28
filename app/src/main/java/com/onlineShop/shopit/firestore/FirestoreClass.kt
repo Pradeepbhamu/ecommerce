@@ -24,13 +24,16 @@ import com.google.firebase.firestore.ktx.toObject
 import com.onlineShop.shopit.models.Address
 import com.onlineShop.shopit.models.CartItem
 import com.onlineShop.shopit.models.Order
+import com.onlineShop.shopit.models.SoldProduct
 import com.onlineShop.shopit.ui.activities.AddEditAddressActivity
 import com.onlineShop.shopit.ui.activities.AddressListActivity
 import com.onlineShop.shopit.ui.activities.CartListActivity
 import com.onlineShop.shopit.ui.activities.CheckoutActivity
 import com.onlineShop.shopit.ui.activities.ProductDetailsActivity
 import com.onlineShop.shopit.ui.fragments.DashboardFragment
+import com.onlineShop.shopit.ui.fragments.OrdersFragment
 import com.onlineShop.shopit.ui.fragments.ProductsFragment
+import com.onlineShop.shopit.ui.fragments.SoldProductFragment
 
 class FirestoreClass {
 
@@ -643,19 +646,34 @@ class FirestoreClass {
             }
     }
 
-    fun updateAllDetails(activity: CheckoutActivity, cartList: ArrayList<CartItem>) {
+    fun updateAllDetails(activity: CheckoutActivity, cartList: ArrayList<CartItem>,order :Order) {
 
         val writeBatch = mFirestore.batch()
 
         for (cartItem in cartList) {
-            val productHashMap = HashMap<String, Any>()
-            productHashMap[Constants.STOCK_QUANTITY] =
-                (cartItem.stock_quantity.toInt() - cartItem.cart_quantity.toInt()).toString()
+//            val productHashMap = HashMap<String, Any>()
+//            productHashMap[Constants.STOCK_QUANTITY] =
+//                (cartItem.stock_quantity.toInt() - cartItem.cart_quantity.toInt()).toString()
 
-            val documentReference = mFirestore.collection(Constants.PRODUCTS)
+
+            val soldProduct =SoldProduct(
+                cartItem.product_owner_id,
+                cartItem.title,
+                cartItem.price,
+                cartItem.cart_quantity,
+                cartItem.image,
+                order.title,
+                order.order_datetime,
+                order.sub_total_amount,
+                order.shipping_charge,
+                order.total_amount,
+                order.address
+            )
+
+            val documentReference = mFirestore.collection(Constants.SOLD_PRODUCTS)
                 .document(cartItem.product_id)
 
-            writeBatch.update(documentReference, productHashMap)
+            writeBatch.set(documentReference, soldProduct)
         }
 
         for (cart in cartList) {
@@ -677,6 +695,54 @@ class FirestoreClass {
                 e
             )
         }
+    }
+
+    fun getMyOrderList(fragment: OrdersFragment){
+     mFirestore.collection(Constants.ORDERS)
+         .whereEqualTo(Constants.USER_ID,getCurrentUserId())
+         .get()
+         .addOnSuccessListener {
+             document->
+             val list:ArrayList<Order> =ArrayList()
+
+             for(i in document){
+                 val orderItem =i.toObject(Order::class.java)
+                 orderItem.id=i.id
+                 list.add(orderItem)
+             }
+             fragment.populateOrdersListInUi(list)
+         }
+         .addOnFailureListener {
+             e->
+            fragment.hideProgressDialog()
+            Log.e(fragment.javaClass.simpleName,"Error while getting the order list",e)
+         }
+    }
+
+
+    fun getSoldProductsList(fragment: SoldProductFragment){
+        mFirestore.collection(Constants.SOLD_PRODUCTS)
+            .whereEqualTo(Constants.USER_ID,getCurrentUserId())
+            .get()
+            .addOnSuccessListener {
+                document->
+
+               val list :ArrayList<SoldProduct> = ArrayList()
+                for(i in document)
+                {
+                    val soldProduct = i.toObject(SoldProduct::class.java)
+                    soldProduct.id=i.id
+                    list.add(soldProduct)
+                }
+                fragment.successSoldProductsList(list)
+
+
+            }
+            .addOnFailureListener {
+                e->
+                fragment.hideProgressDialog()
+                Log.e(fragment.javaClass.simpleName,"Error while getting the list of  sold products",e)
+            }
     }
 
 }

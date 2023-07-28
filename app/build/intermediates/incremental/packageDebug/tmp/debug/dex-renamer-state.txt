@@ -1,4 +1,4 @@
-#Wed Jul 26 19:36:36 IST 2023
+#Fri Jul 28 15:38:30 IST 2023
 base.0=C\:\\flutter_project\\ShopIt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\flutter_project\\ShopIt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\flutter_project\\ShopIt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

@@ -8,6 +8,7 @@ import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
 import com.onlineShop.shopit.R
+import com.onlineShop.shopit.firestore.FirestoreClass
 
 
 class SplashActivity : AppCompatActivity() {
@@ -29,7 +30,13 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed(
             {
 
-                startActivity(Intent(this@SplashActivity, DashboardActivity::class.java))
+                val currentUserID = FirestoreClass().getCurrentUserId()
+
+                if (currentUserID.isNotEmpty()) {
+                    startActivity(Intent(this@SplashActivity, DashboardActivity::class.java))
+                } else {
+                    startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
+                }
                 finish()
             },
             2500

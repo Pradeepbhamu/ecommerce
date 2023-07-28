@@ -23,7 +23,7 @@ open class BaseFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-  binding = FragmentBaseBinding.inflate(inflater, container, false)
+        binding = FragmentBaseBinding.inflate(inflater, container, false)
         return binding.root
     }
     fun showProgressDialog(text: String) {

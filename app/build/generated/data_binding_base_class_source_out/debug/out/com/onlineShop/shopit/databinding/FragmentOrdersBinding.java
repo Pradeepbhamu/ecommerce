@@ -4,13 +4,14 @@ package com.onlineShop.shopit.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.onlineShop.shopit.R;
+import com.onlineShop.shopit.utils.MSPTextView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +21,16 @@ public final class FragmentOrdersBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textNotifications;
+  public final RecyclerView rvMyOrderItems;
+
+  @NonNull
+  public final MSPTextView tvNoOrdersFound;
 
   private FragmentOrdersBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textNotifications) {
+      @NonNull RecyclerView rvMyOrderItems, @NonNull MSPTextView tvNoOrdersFound) {
     this.rootView = rootView;
-    this.textNotifications = textNotifications;
+    this.rvMyOrderItems = rvMyOrderItems;
+    this.tvNoOrdersFound = tvNoOrdersFound;
   }
 
   @Override
@@ -55,13 +60,20 @@ public final class FragmentOrdersBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.text_notifications;
-      TextView textNotifications = ViewBindings.findChildViewById(rootView, id);
-      if (textNotifications == null) {
+      id = R.id.rv_my_order_items;
+      RecyclerView rvMyOrderItems = ViewBindings.findChildViewById(rootView, id);
+      if (rvMyOrderItems == null) {
         break missingId;
       }
 
-      return new FragmentOrdersBinding((ConstraintLayout) rootView, textNotifications);
+      id = R.id.tv_no_orders_found;
+      MSPTextView tvNoOrdersFound = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoOrdersFound == null) {
+        break missingId;
+      }
+
+      return new FragmentOrdersBinding((ConstraintLayout) rootView, rvMyOrderItems,
+          tvNoOrdersFound);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\prade\.gradle\caches\transforms-3\43e3588a77684962c462d1818d770dd7\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\prade\.gradle\caches\transforms-3\3d9eef1c3cfe0f550bc891000c50803a\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\prade\.gradle\caches\transforms-3\fbf9bbd77d359dbc0a8da8132556fd4c\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:17:1-34:12
@@ -108,22 +108,22 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\prade\.gradle\caches\trans
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\prade\.gradle\caches\transforms-3\9a75069fea4277cc1f77f5ec266c20ea\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\prade\.gradle\caches\transforms-3\25fb5d3435e068b29f3c08fd0e48a2c3\transformed\grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\prade\.gradle\caches\transforms-3\c93482a9df94171b58ba13cd3cdfbc6f\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
 	package
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:2:11-69
@@ -158,7 +158,7 @@ ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:8:5-83:19
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:8:5-91:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\prade\.gradle\caches\transforms-3\3d9eef1c3cfe0f550bc891000c50803a\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\prade\.gradle\caches\transforms-3\3d9eef1c3cfe0f550bc891000c50803a\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\prade\.gradle\caches\transforms-3\fbf9bbd77d359dbc0a8da8132556fd4c\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:24:5-32:19
@@ -263,134 +263,150 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prade\.gradle\cach
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:16:9-40
 	android:dataExtractionRules
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:10:9-65
-activity#com.onlineShop.shopit.ui.activities.CheckoutActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:18:9-21:58
+activity#com.onlineShop.shopit.ui.activities.SoldProductDetailsActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:18:9-21:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:20:13-49
 	android:theme
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:19:13-59
-activity#com.onlineShop.shopit.ui.activities.AddEditAddressActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:22:9-25:49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:19:13-69
+activity#com.onlineShop.shopit.ui.activities.MyOrderDetailsActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:22:9-25:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:24:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:25:13-46
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:23:13-65
-activity#com.onlineShop.shopit.ui.activities.AddressListActivity
+activity#com.onlineShop.shopit.ui.activities.CheckoutActivity
 ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:28:13-49
 	android:theme
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:27:13-62
-activity#com.onlineShop.shopit.ui.activities.CartListActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:30:9-33:59
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:27:13-59
+activity#com.onlineShop.shopit.ui.activities.AddEditAddressActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:30:9-33:49
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:32:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:33:13-46
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:31:13-59
-activity#com.onlineShop.shopit.ui.activities.ProductDetailsActivity
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:31:13-65
+activity#com.onlineShop.shopit.ui.activities.AddressListActivity
 ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:36:13-49
 	android:theme
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:35:13-65
-activity#com.onlineShop.shopit.ui.activities.AddProductActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:38:9-41:49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:35:13-62
+activity#com.onlineShop.shopit.ui.activities.CartListActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:38:9-41:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:40:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:41:13-46
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:39:13-61
-activity#com.onlineShop.shopit.ui.activities.SettingsActivity
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:39:13-59
+activity#com.onlineShop.shopit.ui.activities.ProductDetailsActivity
 ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:42:9-45:59
 	android:screenOrientation
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:44:13-49
 	android:theme
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:43:13-59
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:43:13-65
+activity#com.onlineShop.shopit.ui.activities.AddProductActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:46:9-49:49
+	android:screenOrientation
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:48:13-49
+	android:theme
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:49:13-46
+	android:name
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:47:13-61
+activity#com.onlineShop.shopit.ui.activities.SettingsActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:50:9-53:59
+	android:screenOrientation
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:52:13-49
+	android:theme
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:51:13-59
 activity#com.onlineShop.shopit.ui.activities.DashboardActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:46:9-48:48
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:54:9-56:48
 	android:label
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:48:13-45
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:56:13-45
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:47:13-60
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:55:13-60
 activity#com.onlineShop.shopit.ui.activities.UserProfileActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:49:9-52:49
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:57:9-60:49
 	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:59:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:52:13-46
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:60:13-46
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:50:13-62
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:58:13-62
 activity#com.onlineShop.shopit.ui.activities.ForgotPasswordActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:53:9-56:59
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:61:9-64:49
 	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:63:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:64:13-46
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:54:13-65
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:62:13-65
 activity#com.onlineShop.shopit.ui.activities.BaseActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:57:9-59:40
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:exported
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:58:13-55
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:66:13-55
 activity#com.onlineShop.shopit.ui.activities.RegisterActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:60:9-63:49
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:68:9-71:49
 	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:62:13-49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:70:13-49
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:63:13-46
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:71:13-46
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:61:13-59
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:69:13-59
 activity#com.onlineShop.shopit.ui.activities.LoginActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:64:9-68:49
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:72:9-76:49
 	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:67:13-49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:75:13-49
 	android:exported
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:66:13-37
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:74:13-37
 	android:theme
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:68:13-46
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:76:13-46
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:65:13-56
-activity#com.onlineShop.shopit.ui.activities.SplashActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:69:9-79:20
-	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:72:13-49
-	android:exported
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:71:13-36
-	android:theme
 		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:73:13-56
-	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:70:13-57
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:74:13-78:29
-action#android.intent.action.MAIN
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:75:17-69
-	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:75:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:77:17-77
-	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:77:27-74
-activity#com.onlineShop.shopit.ui.activities.MainActivity
-ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:80:9-82:52
+activity#com.onlineShop.shopit.ui.activities.SplashActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:77:9-87:20
 	android:screenOrientation
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:80:13-49
+	android:exported
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:79:13-36
+	android:theme
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:81:13-56
 	android:name
-		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:81:13-55
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:78:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:82:13-86:29
+action#android.intent.action.MAIN
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:83:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:85:27-74
+activity#com.onlineShop.shopit.ui.activities.MainActivity
+ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml:89:13-55
 uses-sdk
 INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\flutter_project\ShopIt\app\src\main\AndroidManifest.xml

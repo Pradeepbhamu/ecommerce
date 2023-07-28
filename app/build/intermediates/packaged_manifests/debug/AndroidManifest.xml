@@ -37,6 +37,14 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.onlineShop.shopit.ui.activities.SoldProductDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.onlineShop.shopit.ui.activities.MyOrderDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.onlineShop.shopit.ui.activities.CheckoutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -74,7 +82,7 @@
         <activity
             android:name="com.onlineShop.shopit.ui.activities.ForgotPasswordActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.1" />
         <activity
             android:name="com.onlineShop.shopit.ui.activities.BaseActivity"
             android:exported="false" />

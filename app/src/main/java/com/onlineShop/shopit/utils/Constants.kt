@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.MediaStore
 import android.webkit.MimeTypeMap
+import java.io.StringReader
 
 object Constants {
 
@@ -27,7 +28,7 @@ object Constants {
 
      const val ADDRESSES: String = "addresses"
 
-     const val MIN_ORDER_AMOUNT = 100.0
+     const val MIN_ORDER_AMOUNT = 150.0
      const  val SHIPPING_CHARGE_PER_ITEM = 5.0
 
      const val EXTRA_PRODUCT_ID: String = "extra_product_id"
@@ -44,6 +45,11 @@ object Constants {
 
      const val CART_QUANTITY: String = "cart_quantity"
 
+     const val EXTRA_MY_ORDER_DETAILS: String = "extra_MY_ORDER_DETAILS"
+
+     const val SOLD_PRODUCTS : String = "sold_products"
+
+     const val EXTRA_SOLD_PRODUCT_DETAILS : String ="extra_sold_product_details"
 
      const val ORDERS: String = "orders"
 
